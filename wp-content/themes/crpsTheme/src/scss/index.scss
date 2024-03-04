@@ -1,0 +1,12 @@
+h1 { color: blue !important; }
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+.container--narrow {
+  max-width: 1000px;
+}
