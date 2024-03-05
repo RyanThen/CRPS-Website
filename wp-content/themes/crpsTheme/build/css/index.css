@@ -1,5 +1,5 @@
 h1 {
-  color: blue !important;
+  color: red !important;
 }
 
 .container {
@@ -11,4 +11,4 @@ h1 {
 
 .container--narrow {
   max-width: 1000px;
-}/*# sourceMappingURL=index.css.map */
+}
