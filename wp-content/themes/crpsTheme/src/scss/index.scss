@@ -1,12 +1,13 @@
-h1 { color: red !important; }
+// variables and function
+@import 'variables';
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 15px;
-  position: relative;
-}
+// base and layout
+@import 'base';
 
-.container--narrow {
-  max-width: 1000px;
-}
+// components
+@import 'components/header-nav';
+
+// utility classes
+
+h1 { color: $primary-dark !important; }
+
