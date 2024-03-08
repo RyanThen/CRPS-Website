@@ -1,13 +1,10 @@
-// variables and function
+// variables and functions
 @import 'variables';
+@import 'colors';
 
 // base and layout
 @import 'base';
 
 // components
 @import 'components/header-nav';
-
-// utility classes
-
-h1 { color: $primary-dark !important; }
-
+@import 'components/buttons';

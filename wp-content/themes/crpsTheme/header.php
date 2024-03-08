@@ -14,7 +14,7 @@
       <div class="site-header__content-container">
 
         <div class="site-header__logo-container">
-          <a href="#" class="site-header__logo-link">
+          <a href="/" class="site-header__logo-link">
             <img class="site-header__logo" src="#">
           </a>
         </div>

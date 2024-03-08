@@ -1,3 +1,51 @@
+.text-primary {
+  color: #08445B;
+}
+
+.bg-primary {
+  background-color: #08445B;
+}
+
+.text-primary-dark {
+  color: #122C41;
+}
+
+.bg-primary-dark {
+  background-color: #122C41;
+}
+
+.text-primary-light {
+  color: #2E647A;
+}
+
+.bg-primary-light {
+  background-color: #2E647A;
+}
+
+.text-highlight {
+  color: #2185B6;
+}
+
+.bg-highlight {
+  background-color: #2185B6;
+}
+
+.text-highlight-alt {
+  color: #035042;
+}
+
+.bg-highlight-alt {
+  background-color: #035042;
+}
+
+.text-white {
+  color: #FDFDFD;
+}
+
+.text-black {
+  color: #0e1111;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -9,6 +57,346 @@
   max-width: 1000px;
 }
 
-h1 {
-  color: #122C41 !important;
+.section-padding {
+  padding-block: 3.125rem;
+}
+
+.site-header__content-container {
+  display: flex;
+}
+
+.btn-primary {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #08445B;
+  border: 1px solid #08445B;
+}
+.btn-primary:hover {
+  background-color: #0a5672;
+}
+
+.btn-primary--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #08445B;
+  border: 2px solid #08445B;
+}
+.btn-primary--lg:hover {
+  background-color: #0a5672;
+}
+
+.btn-primary--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #08445B;
+}
+.btn-primary--ghost:hover {
+  background-color: #0a5672;
+}
+
+.btn-primary-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #08445B;
+}
+.btn-primary-ghost--lg:hover {
+  background-color: #0a5672;
+}
+
+.btn-primary-dark {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #122C41;
+  border: 1px solid #122C41;
+}
+.btn-primary-dark:hover {
+  background-color: #183a55;
+}
+
+.btn-primary-dark--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #122C41;
+  border: 2px solid #122C41;
+}
+.btn-primary-dark--lg:hover {
+  background-color: #183a55;
+}
+
+.btn-primary-dark--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #122C41;
+}
+.btn-primary-dark--ghost:hover {
+  background-color: #183a55;
+}
+
+.btn-primary-dark-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #122C41;
+}
+.btn-primary-dark-ghost--lg:hover {
+  background-color: #183a55;
+}
+
+.btn-primary-light {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #2E647A;
+  border: 1px solid #2E647A;
+}
+.btn-primary-light:hover {
+  background-color: #35738d;
+}
+
+.btn-primary-light--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #2E647A;
+  border: 2px solid #2E647A;
+}
+.btn-primary-light--lg:hover {
+  background-color: #35738d;
+}
+
+.btn-primary-light--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #2E647A;
+}
+.btn-primary-light--ghost:hover {
+  background-color: #35738d;
+}
+
+.btn-primary-light-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #2E647A;
+}
+.btn-primary-light-ghost--lg:hover {
+  background-color: #35738d;
+}
+
+.btn-highlight {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #2185B6;
+  border: 1px solid #2185B6;
+}
+.btn-highlight:hover {
+  background-color: #2595cc;
+}
+
+.btn-highlight--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #2185B6;
+  border: 2px solid #2185B6;
+}
+.btn-highlight--lg:hover {
+  background-color: #2595cc;
+}
+
+.btn-highlight--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #2185B6;
+}
+.btn-highlight--ghost:hover {
+  background-color: #2595cc;
+}
+
+.btn-highlight-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #2185B6;
+}
+.btn-highlight-ghost--lg:hover {
+  background-color: #2595cc;
+}
+
+.btn-highlight-alt {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #035042;
+  border: 1px solid #035042;
+}
+.btn-highlight-alt:hover {
+  background-color: #046956;
+}
+
+.btn-highlight-alt--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #035042;
+  border: 2px solid #035042;
+}
+.btn-highlight-alt--lg:hover {
+  background-color: #046956;
+}
+
+.btn-highlight-alt--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #035042;
+}
+.btn-highlight-alt--ghost:hover {
+  background-color: #046956;
+}
+
+.btn-highlight-alt-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #035042;
+}
+.btn-highlight-alt-ghost--lg:hover {
+  background-color: #046956;
+}
+
+.btn-white {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FDFDFD;
+  border: 1px solid #FDFDFD;
+}
+.btn-white:hover {
+  background-color: white;
+}
+
+.btn-white--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FDFDFD;
+  border: 2px solid #FDFDFD;
+}
+.btn-white--lg:hover {
+  background-color: white;
+}
+
+.btn-white--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #FDFDFD;
+}
+.btn-white--ghost:hover {
+  background-color: white;
+}
+
+.btn-white-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #FDFDFD;
+}
+.btn-white-ghost--lg:hover {
+  background-color: white;
+}
+
+.btn-black {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #0e1111;
+  border: 1px solid #0e1111;
+}
+.btn-black:hover {
+  background-color: #1a1f1f;
+}
+
+.btn-black--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #0e1111;
+  border: 2px solid #0e1111;
+}
+.btn-black--lg:hover {
+  background-color: #1a1f1f;
+}
+
+.btn-black--ghost {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #0e1111;
+}
+.btn-black--ghost:hover {
+  background-color: #1a1f1f;
+}
+
+.btn-black-ghost--lg {
+  padding: 1.5em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #0e1111;
+}
+.btn-black-ghost--lg:hover {
+  background-color: #1a1f1f;
 }

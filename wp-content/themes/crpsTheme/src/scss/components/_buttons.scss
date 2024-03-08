@@ -1,0 +1,46 @@
+@mixin button() {
+  padding: 1.5em 3em;
+  border-radius: $border-radius-base;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@each $key, $val in $colors {
+  
+  .btn-#{$key} {
+    @include button();
+    background-color: $val;
+    border: $border-base solid $val;
+    &:hover {
+      background-color: lighten($val, 5);
+    }
+  }
+
+  .btn-#{$key}--lg {
+    @include button();
+    background-color: $val;
+    border: $border-lg solid $val;
+    &:hover {
+      background-color: lighten($val, 5);
+    }
+  }
+
+  .btn-#{$key}--ghost {
+    @include button();
+    background-color: transparent;
+    border: $border-base solid $val;
+    &:hover { 
+      background-color: lighten($val, 5);
+    }
+  }
+
+  .btn-#{$key}-ghost--lg {
+    @include button();
+    background-color: transparent;
+    border: $border-lg solid $val;
+    &:hover { 
+      background-color: lighten($val, 5);
+    }
+  }
+
+}
