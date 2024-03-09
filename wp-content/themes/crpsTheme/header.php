@@ -9,13 +9,14 @@
 </head>
 <body <?php body_class(); ?>>
 
-  <header class="site-header">
+  <header class="site-header bg-primary">
     <div class="container">
       <div class="site-header__content-container">
 
         <div class="site-header__logo-container">
           <a href="/" class="site-header__logo-link">
-            <img class="site-header__logo" src="#">
+            CRPS Website
+            <!-- <img class="site-header__logo" src="#"> -->
           </a>
         </div>
 

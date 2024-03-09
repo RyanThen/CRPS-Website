@@ -3,8 +3,10 @@
 @import 'colors';
 
 // base and layout
+@import 'typography';
 @import 'base';
+@import 'layouts/front-page';
 
 // components
-@import 'components/header-nav';
 @import 'components/buttons';
+@import 'components/header-nav';
